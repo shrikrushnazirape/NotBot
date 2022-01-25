@@ -17,6 +17,11 @@ doc_url = 'https://shrikrushnazirape.s3.amazonaws.com/te-min-compressed.pdf'
 
 
 
+@app.route("/")
+def hello():
+    return "Hello, This is testing of Notbot!"
+
+
 
 
 
